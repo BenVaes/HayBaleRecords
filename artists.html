@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Hay Bale Records</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link rel="stylesheet" type="text/css" href="styling2.css">
+	<link rel="stylesheet" type="text/css" href="stylingArtists.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="images/HayBaleRecordsName.png" alt="HayBaleRecordsNaam" class="labelnaam"/>
+			<a href="index.html" >Home</a>
+			<a href="events.html">Events</a>
+			<a href="about.html">About</a>
+			<a href="artists.html" class="selected">Artists</a>
+			<a href="store.html">Store</a>
+			<a href="contact.html">Contact</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<div class="social">
+			<a href="#"><img src="images/twitter.png"/></a>
+			<a href="https://www.facebook.com/HayBaleRecords/?ref=ts&fref=ts"><img src="images/facebook.png"/></a>
+			<a href="#"><img src="images/pinterest.png"/></a>
+			<a href="#"><img src="images/instagram.png"/></a>
+		</div>
+	</header>
+
+	<main>
+		<div class="artists">
+			<h1>ARTISTS</h1><br>
+
+		</div>
+		<div class="grids_of_4">
+			<div class="gridArtists">
+					<img src="images/stagemowers.jpg" alt=""/>
+					<h3>Stagemowers</h3>
+					<div class="price">
+						<button class="accordion">Information</button>
+							<div class="panel">
+  						<p>The Stagemowers are a group of 4 young guys that grew up in Texas, Cedar Hill . Because they are such a young group, they don’t have much experience, but we can assure you that these fellas are an up and coming talent.</p>
+						</div>
+					</div>
+					<span class="b_btm"></span>
+				</a>
+			</div>
+			<div class="gridArtists">
+					<img src="images/benArtiest6.jpg" alt=""/>
+					<h3>Hillbilly Fever</h3>
+					<div class="price">
+						<button class="accordion">Information</button>
+							<div class="panel">
+  						<p>It all started with a young couple who were deeply in love. Both of them had a passion for music, Bluegrass to be specific. They wanted to become bigger and asked some of their friends if they were interested. Since 2013 they are known as the very successful Hillbilly Fever. </p>
+						</div>
+					</div>
+					<span class="b_btm"></span>
+				</a>
+			</div>
+			<div class="gridArtists">
+					<img src="images/Artiest_Yannis.jpg" alt=""/>
+					<h3>Carolina River Band</h3>
+					<div class="price">
+						<button class="accordion">Information</button>
+							<div class="panel">
+  						<p>Originally the Carolina River Band only had 3 members and they were called The Grashoppers. They participated at open-stages  and jams. Later, at these jams, they met the 2 latest members of the group. From then on, they were called the Carolina River Band.</p>
+						</div>
+					</div>
+					<span class="b_btm"></span>
+				</a>
+			</div>
+			<div class="gridArtists">
+					<img src="images/benraedtsartiest.jpg" alt=""/>
+					<h3>Nothin' Crazy</h3>
+					<div class="price">
+						<button class="accordion">Information</button>
+							<div class="panel">
+  						<p>Friends since kindergarden. That’s the very beginning of Nothin’ Crazy. Three guys who have so much fun in jamming. They first started by doing covers of famous artists but now they released their first very own album.</p>
+						</div>
+					</div>
+					<span class="b_btm"></span>
+				</a>
+			</div>
+			<div class="clear"></div>
+			<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  }
+}
+</script>
+	</main>
+<br class="clear">
+	<footer>
+		<div class="footer">
+			<nav class= "lijst2">
+				<a href="index.html">Home</a>
+				<a href="events.html">Events</a>
+				<a href="about.html">About</a>
+				<a href="artists.html">Artists</a>
+				<a href="store.html">Store</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<div class = "copyright">Copyright Hay Bale Records 2017</div>
+			<div class ="socialfooter">
+				<a href="#"><img src="images/twitter.png"/></a>
+				<a href="https://www.facebook.com/HayBaleRecords/?ref=ts&fref=ts"><img src="images/facebook.png"/></a>
+				<a href="#"><img src="images/pinterest.png"/></a>
+				<a href="#"><img src="images/instagram.png"/></a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+body{
+  font-family: "Roboto Regular";
+}
+
+span.labelnaam{
+  float:left;
+  font-family: "RioGrande";
+  font-weight: bold;
+  font-size: 2.5em;
+}
+a{
+    text-decoration: none;
+    font-family: "Roboto";
+}
+.about{
+  width: 65%;
+  margin: auto;
+  height: 450px;
+  padding-top: 10%;
+  display: block;
+  line-height: 1.5em;
+}
+.social{
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  right: 10%;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+header img{
+  height: 25px;
+
+}
+h1{
+  font-family: "Rockwell" Bold, sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+}
+.grids_of_3{
+	text-align:center;
+	margin-left: 17%;
+  margin-top: 6.5em;
+}
+.grid{
+	float: left;
+	width: 26%;
+	border: 1px solid rgb(223, 223, 223);
+	position: relative;
+  display: inline-block;
+  font-family: "Roboto Regular";
+  margin-bottom: 2em;
+}
+.grid:first-child{
+	margin-left: 0;
+}
+.grid a{
+	padding: 1%;
+	display: block;
+}
+.grid img{
+	margin-top: 8%;
+  height: 12em;
+  width: auto;
+}
+.grid h3{
+	margin: 4% 0 5%;
+	font-size: 1.2em;
+	color: #999999;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.grid:hover h3,.grid:hover h4 span{
+	color: #cc442c;
+}
+.grid2{
+	float: left;
+	width: 26%;
+	border: 1px solid rgb(223, 223, 223);
+	position: relative;
+  display: inline-block;
+  font-family: "Roboto Regular";
+  margin-bottom: 2em;
+}
+.grid2:first-child{
+	margin-left: 0;
+}
+.grid2 a{
+	padding: 1%;
+	display: block;
+}
+.grid2 img{
+	margin-top: 8%;
+  height: 12em;
+  width: auto;
+}
+.grid2 h3{
+	margin: 4% 0 5%;
+	font-size: 1.2em;
+	color: #999999;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.grid2:hover h3,.grid2:hover h4 span{
+	color:  #cc442c;
+}
+.grid3{
+	float: left;
+	width: 26%;
+	border: 1px solid rgb(223, 223, 223);
+	position: relative;
+  display: inline-block;
+  font-family: "Roboto Regular";
+  margin-bottom: 2em;
+}
+.grid3:first-child{
+	margin-left: 0;
+}
+.grid3 a{
+	padding: 1%;
+	display: block;
+}
+.grid3 img{
+	margin-top: 8%;
+  height: 12em;
+  width: auto;
+}
+.grid3 h3{
+	margin: 4% 0 5%;
+	font-size: 1.2em;
+	color: #999999;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.grid3:hover h3,.grid3:hover h4 span{
+	color:  #cc442c;
+}
+.grid4{
+	float: left;
+	width: 26%;
+	border: 1px solid rgb(223, 223, 223);
+	position: relative;
+  display: inline-block;
+  font-family: "Roboto Regular";
+  margin-bottom: 2em;
+}
+.grid4:first-child{
+	margin-left: 0;
+}
+.grid4 a{
+	padding: 1%;
+	display: block;
+}
+.grid4 img{
+	margin-top: 8%;
+  height: 12em;
+  width: auto;
+}
+.grid4 h3{
+	margin: 4% 0 5%;
+	font-size: 1.2em;
+	color: #999999;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.grid4:hover h3,.grid4:hover h4 span{
+	color:  #cc442c;
+}
+.b_btm{
+	position: absolute;
+	width: 100%;
+	border-bottom: 6px solid #67140F;
+	left: 0px;
+	display: block;
+	bottom: 0px;
+}
+.price{
+	display: block;
+	margin-bottom: 40px;
+}
+.price h4{
+	font-size: 1em;
+	color: #999999;
+}
+.price h4 span{
+	display: inline-block;
+	font-size: 1.1em;
+	background:  #67140F;
+	color: #ffffff;
+	padding: 8px 20px;
+	margin-left: 30px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+@font-face {
+    font-family: "RioGrande";
+    src: url(fonts/RioGrande.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold Italic";
+    src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Italic";
+    src: url(fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium Italic";
+    src: url(fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rockwell";
+    src: url(fonts/ROCK.TTF);
+}
+
+@font-face {
+    font-family: "Rockwell Bold";
+    src: url(fonts/ROCKB.TTF);
+}
+
+@font-face {
+    font-family: "Rockwell Bold Italic";
+    src: url(fonts/ROCKBI.TTF);
+}
+
+@font-face {
+    font-family: "Rockwell Extra Bold";
+    src: url(fonts/ROCKEB.TTF);
+}
+
+@font-face {
+    font-family: "Rockwell Italic";
+    src: url(fonts/ROCKI.TTF);
+}

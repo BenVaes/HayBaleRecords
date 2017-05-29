@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Hay Bale Records</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link rel="stylesheet" type="text/css" href="homestyling.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="images/HayBaleRecordsName.png" alt="HayBaleRecordsNaam" class="labelnaam"/>
+			<a href="index.html" class="selected">Home</a>
+			<a href="events.html">Events</a>
+			<a href="about.html">About</a>
+			<a href="artists.html">Artists</a>
+			<a href="store.html">Store</a>
+			<a href="contact.html">Contact</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<div class="social">
+			<a href="#"><img src="images/twitter.png"/></a>
+			<a href="https://www.facebook.com/HayBaleRecords/?ref=ts&fref=ts"><img src="images/facebook.png"/></a>
+			<a href="#"><img src="images/pinterest.png"/></a>
+			<a href="#"><img src="images/instagram.png"/></a>
+		</div>
+	</header>
+	<br class="clear">
+	<main>
+		<div class="labelnightheader">
+			<a href="events.html">Labelnight 2017</a>
+		</div>
+
+		<div class="locatiebox">
+			<h1>DATE</h1>
+			<p>Friday 19th of June</p>
+			<h1>PLANET BLUEGRASS RANCH</h1>
+			<p>Lyons, Colorado</p>
+			<div id="map"></div>
+			<script>
+			function myMap() {
+		  var mapOptions = {
+		      center: new google.maps.LatLng(40.226863,-105.2733015),
+		      zoom: 15,
+		      mapTypeId: google.maps.MapTypeId.ROADMAP
+		  };
+		  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		  }
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLnO8--tde_ZhWJe4HJPh3qKTydAZqYbk&callback=myMap"></script>
+			<p style="text-align:center;">https://www.bluegrass.com/</p>
+			<h1>Artists</h1>
+			<p>Stagemowers<br>Ceder Hill, Texas</p>
+			<p>Carolina River Band<br>Rosewood, Texas</p>
+			<p>Hilbilly Fever<br>Freedomwood, Texas</p>
+			<p>Nothin' Crazy<br>San Antonio, Texas</p>
+		</div>
+
+		<div class="promobox">
+			<iframe src="https://www.youtube.com/embed/nHV4454Irjw?ecver=1" allowfullscreen></iframe>
+		</div>
+
+		<div class="slider" id="slider">
+			<img src="images/artists/benartiest1.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest2.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest3.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest4.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest5.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest6.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest7.JPG" class="slidefoto"/>
+			<img src="images/artists/benartiest8.JPG" class="slidefoto"/>
+			<img src="images/artists/benraedtsartiest.jpg" class="slidefoto"/>
+			<img src="images/artists/Artiest_Yannis.jpg" class="slidefoto"/>
+			<img src="images/artists/stagemowers.jpg" class="slidefoto"/>
+		</div>
+	</main>
+
+	<footer>
+		<nav class="lijst2">
+			<a href="index.html">Home</a>
+			<a href="events.html">Events</a>
+			<a href="about.html">About</a>
+			<a href="artists.html">Artists</a>
+			<a href="store.html">Store</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<div class="copyright">Copyright Hay Bale Records 2017</div>
+		<div class="socialfooter">
+			<a href="#"><img src="images/twitter.png"/></a>
+			<a href="#"><img src="images/facebook.png"/></a>
+			<a href="#"><img src="images/pinterest.png"/></a>
+			<a href="#"><img src="images/instagram.png"/></a>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Hay Bale Records</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link rel="stylesheet" type="text/css" href="contactstyling.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="images/HayBaleRecordsName.png" alt="HayBaleRecordsNaam" class="labelnaam" />
+			<a href="index.html">Home</a>
+			<a href="events.html">Events</a>
+			<a href="about.html">About</a>
+			<a href="artists.html">Artists</a>
+			<a href="store.html">Store</a>
+			<a href="contact.html" class="selected">Contact</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<div class="social">
+			<a href="#"><img src="images/twitter.png" /></a>
+			<a href="https://www.facebook.com/HayBaleRecords/?ref=ts&fref=ts"><img src="images/facebook.png" /></a>
+			<a href="#"><img src="images/pinterest.png" /></a>
+			<a href="#"><img src="images/instagram.png" /></a>
+		</div>
+	</header>
+	<br class="clear">
+	<main>
+		<div class="container">
+			<h1>Contact</h1>
+			<p>If you have any questions about our label or want to book any of our artists for a night of
+				entertainment and amusement feel free to contact us and we'll make arrangements.</p>
+			<form action="/action_page.php">
+
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<label for="country">Country</label>
+				<input type="text" id="country" name="country" placeholder="Your country..">
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Extra remarks.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+
+			</form>
+		</div>
+
+		<div class="container2">
+			<h1>Send us a postcard</h1>
+			<p>Our artists love to interact with their fans and therefore are always open for fanmail and giving autographs.<br>
+				You can find our contact information below, this address can also be used to send us questions or business offers.</p>
+
+
+		<div id="map"></div>
+		<script>
+		function myMap() {
+		var mapOptions = {
+				center: new google.maps.LatLng(51.2297882,4.4149717),
+				zoom: 17,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLnO8--tde_ZhWJe4HJPh3qKTydAZqYbk&callback=myMap"></script>
+		<h1>Address</h1>
+		<p>Ellermanstraat 33, Antwerp</p>
+		</div>
+	</main>
+
+	<footer>
+		<nav class="lijst2">
+			<a href="index.html">Home</a>
+			<a href="events.html">Events</a>
+			<a href="about.html">About</a>
+			<a href="artists.html">Artists</a>
+			<a href="store.html">Store</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<div class="copyright">Copyright Hay Bale Records 2017</div>
+		<div class="socialfooter">
+			<a href="#"><img src="images/twitter.png" /></a>
+			<a href="#"><img src="images/facebook.png" /></a>
+			<a href="#"><img src="images/pinterest.png" /></a>
+			<a href="#"><img src="images/instagram.png" /></a>
+		</div>
+	</footer>
+</body>
+
+</html>

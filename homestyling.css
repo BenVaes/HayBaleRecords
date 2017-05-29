@@ -1,0 +1,154 @@
+body{
+  padding-bottom: 23em;
+}
+
+.labelnightheader{
+  margin-top: 4em;
+  height: 15em;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: inline-block;
+  background-image: url("images/backbleu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.labelnightheader a{
+  text-decoration: none;
+  z-index: 3;
+  color: white;
+  font-size: 3em;
+  font-family: "Rockwell";
+  position: relative;
+  top: 40%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.locatiebox{
+  margin-top: 2em;
+  width: 37.5%;
+  background-color: #151515;
+  margin-left: 10%;
+  margin-right: 2.5%;
+  box-sizing: border-box;
+  color: white;
+  padding: 2em;
+  float:left;
+}
+
+.locatiebox p{
+  font-family: "Roboto Light";
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.promobox{
+  width: 37.5%;
+  margin-left: 2.5%;
+  margin-right: 10%;
+  box-sizing: border-box;
+  padding: 2em;
+  background-color: #151515;
+  margin-top: 2em;
+  float: left;
+}
+
+.promobox iframe{
+  width: 100%;
+  height: 15.6em;
+}
+
+.slider {
+  width: 37.5%;
+  margin-top: 2em;
+  float: left;
+  background-color: #151515;
+  margin-left: 2.5%;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.slider img:nth-child(2) {
+  float:right;
+  height: 10em;
+  width: auto;
+  max-width: 45%;
+}
+
+.slider img:first-child{
+  height: 10em;
+  float: left;
+  width: auto;
+  max-width: 45%;
+}
+
+.slider img:nth-child(n+3) {
+  display: none;
+}
+
+#map{
+  width: 100%;
+  height:13.4em;
+  margin:auto;
+  display:block;
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    padding-bottom: 7.5em;
+  }
+
+  .labelnightheader{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .locatiebox{
+    float:none;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+  }
+
+  #map{
+    height: 8em;
+  }
+
+  .promobox{
+    width: 100%;
+    float:none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+  }
+
+  .slider{
+    width: 100%;
+    height: 9em;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+  }
+
+  .slider img:nth-child(2) {
+    width: 30%;
+  }
+
+  .slider img:first-child{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .promobox iframe{
+    width: 100%;
+    height: 10em;
+  }
+}

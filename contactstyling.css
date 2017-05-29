@@ -1,0 +1,88 @@
+body{
+  padding-bottom: 4em;
+}
+
+.container, .container2{
+  font-family: "Roboto Light";
+}
+
+.container {
+  margin-top:4.5em;
+  background-color: #151515;
+  padding: 2em;
+  color:white;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "Roboto Light";
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+.container2{
+  margin-top: 2em;
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #151515;
+  box-sizing: border-box;
+  padding:2em;
+}
+
+#map{
+  width: 100%;
+  height:13.4em;
+  margin:auto;
+  display:block;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    padding-bottom: 7.5em;
+  }
+  .container{
+    margin-top: 6em;
+  }
+
+  .container, .container2{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container2{
+    margin-top: 1em;
+  }
+}
